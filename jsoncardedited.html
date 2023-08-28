@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jsoncardcss.css">
+</head>
+
+<body>
+    <script>
+        var card = {
+            EleType: "div",
+            className: "card",
+            children: [
+                {
+                    EleType: "div",
+                    className: "card-header",
+                    children: [
+                        {
+                            EleType: "img",
+                            src: "icon5.png",
+                            className: "header-icon"
+                        },
+                        {
+                            EleType: "h2",
+                            text: "Tasks List",
+                            className: "header-title"
+                        },
+
+                        {
+                            EleType: "button",
+                            text: "=",
+                            className: "header-button"
+                        }
+                    ]
+                },
+                {
+                    EleType: "div",
+                    className: "card-content",
+                    children: [
+                        {
+                            EleType: "div",
+                            className: "content-division1",
+                            children: [
+                                {
+                                    EleType: "div",
+                                    className: "division-chkbx",
+                                    children: [
+                                        {
+                                            EleType: "input",
+                                            type: "checkbox",
+                                            className: "chkbx",
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "div",
+                                    className: "flex-content-y",
+                                    children: [
+                                        {
+                                            EleType: "h4",
+                                            text: "Wash the car",
+                                        },
+                                        {
+                                            EleType: "span",
+                                            className: "description1",
+                                            text: "Written by Bob"
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "span",
+                                    className: "status1",
+                                    text: "REJECTED"
+                                },
+
+
+                            ],
+
+                        },
+
+                        { EleType: "hr" },
+                        {
+                            EleType: "div",
+                            className: "content-division2",
+                            children: [
+                                {
+                                    EleType: "div",
+                                    className: "division-chkbx",
+                                    children: [
+                                        {
+                                            EleType: "input",
+                                            type: "checkbox",
+                                            className: "chkbx",
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "div",
+                                    className: "flex-content-y",
+                                    children: [
+                                        {
+                                            EleType: "h4",
+                                            text: "Task with dropdown menu"
+                                        },
+                                        {
+                                            EleType: "span",
+                                            className: "description2",
+                                            text: "By Johnny"
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "span",
+                                    text: "NEW",
+                                    className: "status2"
+                                }
+                            ]
+                        },
+                        { EleType: "hr" },
+                        {
+                            EleType: "div",
+                            className: "content-division3",
+                            children: [
+                                {
+                                    EleType: "div",
+                                    className: "division-chkbx",
+                                    children: [
+                                        {
+                                            EleType: "input",
+                                            type: "checkbox",
+                                            className: "chkbx",
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "div",
+                                    className: "flex-content-y",
+                                    children: [
+                                        {
+                                            EleType: "h4",
+                                            text: "Badge on the right task"
+                                        },
+                                        {
+                                            EleType: "span",
+                                            className: "description3",
+                                            text: "This task has show on hover effects"
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "span",
+                                    className: "status3",
+                                    text: "LATEST TASK"
+                                }
+                            ]
+                        },
+                        { EleType: "hr" },
+                        {
+                            EleType: "div",
+                            className: "content-division4",
+                            children: [
+                                {
+                                    EleType: "div",
+                                    className: "division-chkbx",
+                                    children: [
+                                        {
+                                            EleType: "input",
+                                            type: "checkbox",
+                                            className: "chkbx",
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "div",
+                                    className: "flex-content-y",
+                                    children: [
+                                        {
+                                            EleType: "h4",
+                                            text: "Development task"
+                                        },
+                                        {
+                                            EleType: "span",
+                                            className: "description4",
+                                            text: "Finish React ToDo List App"
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "span",
+                                    className: "status4",
+                                    text: "69"
+                                }
+                            ]
+                        },
+                        { EleType: "hr" },
+                        {
+                            EleType: "div",
+                            className: "content-division5",
+                            children: [
+                                {
+                                    EleType: "div",
+                                    className: "division-chkbx",
+                                    children: [
+                                        {
+                                            EleType: "input",
+                                            type: "checkbox",
+                                            className: "chkbx",
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "div",
+                                    className: "flex-content-y",
+                                    children: [
+                                        {
+                                            EleType: "h4",
+                                            text: "Wash the car"
+                                        },
+                                        {
+                                            EleType: "span",
+                                            className: "description5",
+                                            text: "Written by Bob"
+                                        }
+                                    ]
+                                },
+                                {
+                                    EleType: "span",
+                                    className: "status5",
+                                    text: "REJECTED"
+                                }
+                            ]
+                        },
+                        { EleType: "hr" },
+
+                    ]
+                },
+                {
+                    EleType: "footer",
+                    className: "card-footer",
+                    children: [
+                        {
+                            EleType: "a",
+                            text: "Cancel",
+                        },
+                        {
+                            EleType: "button",
+                            text: "Add task",
+                            className: "addtaskbtn",
+                        }
+                    ]
+                }
+            ]
+        };
+
+        function createElementFromData(data) {
+            let element = document.createElement(data.EleType);
+            if (data.className) {
+                element.className = data.className;
+            }
+            if (data.text) {
+                element.textContent = data.text;
+            }
+            if (data.type) {
+                element.type = data.type;
+            }
+            if (data.src) {
+                element.src = data.src;
+            }
+            if (data.children) {
+                for (let i = 0; i < data.children.length; i++) {
+                    let childData = data.children[i];
+                    let childElement = createElementFromData(childData);
+                    element.appendChild(childElement);
+                }
+            }
+            return element;
+        }
+
+        let cardObj = createElementFromData(card);
+        document.body.appendChild(cardObj);
+
+    </script>
+</body>
+
+</html>
